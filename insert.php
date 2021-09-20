@@ -32,7 +32,7 @@
         $sql = "INSERT INTO  user_details VALUES ('$email','$aadhar','$password')";
           
         if(mysqli_query($conn, $sql)){
-            header("Location:candidate.html");
+            header("Location:candidate1.html");
         } else{
             echo "$sql. " 
                 . mysqli_error($conn);
